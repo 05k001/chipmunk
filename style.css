@@ -1,0 +1,119 @@
+body{
+    background-color: #e4e4e4;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+    transition: background-color 3s ease;
+}
+a.all:link, a.all:visited{
+    color: #000;
+    text-decoration: none;
+}
+a.all:hover, a.all:active{
+    color: #4ab274;
+    text-decoration: none;
+}
+h1{
+    color: #fff;
+    text-shadow: 0px 0px 10px #000;
+}
+#container{
+    margin: 0px;
+    padding: 0px;
+}
+#skillz{
+    margin-left: 50px;
+}
+#scrolling{
+    width: 70%;
+    padding-top: 10px;
+    font-size: 24px;
+    padding-right: 10px;
+    margin: auto;
+}
+#legend{
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 20px;
+}
+.tracking-in-expand{
+    -webkit-animation:traking-in-expand 2s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand 2s cubic-bezier(.215,.61,.355,1.000) both
+}
+@-webkit-keyframes traking-in-expand{
+    0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+#nav{
+    position: fixed;
+    color: #fff;
+    top: 10px;
+    right: 50px;
+    width: 100px;
+    background-color: #282828;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+}
+a.navT:link, a.navT:visited{
+    color: #fff;
+    text-decoration: none;
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    font-family: "Lucida Console", Monaco, monospace;
+    display: inline-block;
+}
+a.navT:hover, a.navT:active{
+    color: #000;
+    background-color: #4ab274;
+    text-decoration: none;
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    font-family: "Lucida Console", Monaco, monospace;
+    display: inline-block;
+    border-radius: 10px 10px 0px 0px;
+}
+
+a.navL:link, a.navL:visited{
+    color: #fff;
+    text-decoration: none;
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    font-family: "Lucida Console", Monaco, monospace;
+    display: inline-block;
+}
+a.navL:hover, a.navL:active{
+    color: #000;
+    background-color: #4ab274;
+    text-decoration: none;
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    font-family: "Lucida Console", Monaco, monospace;
+    display: inline-block;
+}
+
+a.navB:link, a.navB:visited{
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    font-family: "Lucida Console", Monaco, monospace;
+    display: inline-block;
+}
+a.navB:hover, a.navB:active{
+    color: #000;
+    background-color: #4ab274;
+    text-decoration: none;
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    font-family: "Lucida Console", Monaco, monospace;
+    display: inline-block;
+    border-radius: 0px 0px 10px 10px;
+}
