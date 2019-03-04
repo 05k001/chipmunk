@@ -1,6 +1,6 @@
 function colors(){
     var colorArr = ["#c0cad8", "#deeabb", "#c3b1dd", "#35b0cf"];
-    document.body.style.backgroundColor = colorArr['#ffffff];
+    document.body.style.backgroundColor = colorArr["#ffffff"];
 }
 $(window).scroll(function() {
     var wS = $(window).scrollTop() / ($(document).height() - window.innerHeight);
