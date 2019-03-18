@@ -165,14 +165,32 @@ div[id=map] {
   padding: 0 !important;
   margin: 0 !important;
   cursor: default;
-      z-index: 330;
+  z-index: 330;
     left: 0px;
     top: 0px;
           }
 div[id=quote]{
 
-              font-size: initial;
-            vertical-align: middle;
-            text-align: center;
+    font-size: initial;
+    vertical-align: middle;
+    text-align: center;
 
+}
+div[id=wrapped]{
+
+  text-align: center;
+  vertical-align: middle;
+
+}
+button{
+    display: table;
+  background-color: #4ab274;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
 }
